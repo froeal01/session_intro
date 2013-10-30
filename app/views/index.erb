@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>Please sign in</h1>
+
+
+  <form action='/create' method="post">
+    <input type="text" name="user[email]" ><br>
+    <input type="password" name= "user[password]"><br>
+    <input type="submit" value="Create New User">
+  </form>
+  <br>
+  <form action='/login' method="post">
+    <label for="email">Email</label>
+    <input type="text" id="email" name="user[email]" ><br>
+    <input type="password" name= "user[password]"><br>
+    <input type="submit" value="Log-in">
+  </form>
+
+</div>
